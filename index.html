@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IYR Common Library — Maven</title>
+<style>body{max-width:860px;margin:48px auto;padding:0 24px;font:18px/1.6 system-ui;color:#172b3a}pre{overflow:auto;padding:18px;background:#f0f5f7;border-radius:8px}a{color:#075b9b}</style>
+<h1>IYR Common Library</h1><p>Repositorio Maven para Android e iOS. Descarga pública sin token.</p>
+<h2>Configurar el repositorio</h2><p>En <code>dependencyResolutionManagement.repositories</code> de <code>settings.gradle.kts</code>:</p>
+<pre>maven {
+    url = uri("https://romancanoniero.github.io/iyrcommonlib-maven")
+    content { includeGroup("io.github.romancanoniero") }
+}</pre>
+<h2>Agregar la dependencia</h2><p>En las dependencias de <code>commonMain</code>:</p>
+<pre>implementation("io.github.romancanoniero:iyrcommonlib:0.1.2")</pre>
+<p>Android API 23+, iOS 14+, iPhone/iPad ARM64 y simuladores ARM64/x64. Gradle selecciona el paquete de cada plataforma automáticamente.</p>
+<p>Modelos, utilidades y detección de plataforma desde <code>commonMain</code>: <code>Platform.current</code>, <code>Platform.isAndroid</code> y <code>Platform.isIOS</code>.</p>
+<p><a href="releases/0.1.2.sha256">Manifiesto y SHA-256 de 0.1.2</a> · <a href="keys/iyrcommonlib.asc">Clave pública PGP</a> · <a href="LICENSE">Licencia MIT</a> · <a href="https://github.com/romancanoniero/iyrcommonlib-maven">Repositorio de paquetes</a></p>
+<p>La versión está disponible cuando su manifiesto y sus paquetes están publicados. Las versiones anteriores se conservan. El código Android histórico no forma parte del paquete KMP y el repositorio fuente original permanece privado.</p>
+<p>Este repositorio Maven se aloja en GitHub Pages y es independiente de Maven Central.</p></html>
