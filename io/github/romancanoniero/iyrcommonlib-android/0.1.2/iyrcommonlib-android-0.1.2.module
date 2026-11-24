@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../iyrcommonlib/0.1.2/iyrcommonlib-0.1.2.module",
+    "group": "io.github.romancanoniero",
+    "module": "iyrcommonlib",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iyrcommonlib.aar",
+          "url": "iyrcommonlib-android-0.1.2.aar",
+          "size": 50732,
+          "sha512": "6a0e11c3acf6676da17c2ab45d09c16403437f7158fda962d76f48020429647ab4c7aa521827e98b5a9984c4db1235fbd696145e70d272620305437e98106827",
+          "sha256": "1111b35dbd7d0786b56dc1df0d48748b8a81f0bffd2d091cb1065a51f9160ece",
+          "sha1": "11b12c9e5f3cafa308eec23420e623248241a9e5",
+          "md5": "48bda0114b2eebe1b7df279a4a456229"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iyrcommonlib.aar",
+          "url": "iyrcommonlib-android-0.1.2.aar",
+          "size": 50732,
+          "sha512": "6a0e11c3acf6676da17c2ab45d09c16403437f7158fda962d76f48020429647ab4c7aa521827e98b5a9984c4db1235fbd696145e70d272620305437e98106827",
+          "sha256": "1111b35dbd7d0786b56dc1df0d48748b8a81f0bffd2d091cb1065a51f9160ece",
+          "sha1": "11b12c9e5f3cafa308eec23420e623248241a9e5",
+          "md5": "48bda0114b2eebe1b7df279a4a456229"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "iyrcommonlib-android-0.1.2-sources.jar",
+          "url": "iyrcommonlib-android-0.1.2-sources.jar",
+          "size": 17770,
+          "sha512": "5017a7a9a13abf48787abd2574e923218e4bd0624d76c093e081870f0a54fb0fe463a70aa433ba52562f8760888e16a20f6e8eb86241f0944cb46a9202df8b04",
+          "sha256": "c0423085bc81281129b776a84b3d8e60fc7dab2333fd7733b537b8b6fe740bcb",
+          "sha1": "3851e949f82039fcce1e9cc4afc1f134b20028b4",
+          "md5": "a19948f74b46f869582be2fdddaa492d"
+        }
+      ]
+    }
+  ]
+}
